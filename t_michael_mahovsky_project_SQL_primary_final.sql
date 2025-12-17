@@ -1,6 +1,6 @@
 /*  
 SQL pro vytvoření tabulky t_michael_mahovsky_project_SQL_primary_final
-Obsahuje průměrné mzdy a ceny vybraných potravin V ČR za společné roky.
+Obsahuje průměrné mzdy a ceny vybraných potravin v ČR za společné roky.
 */
 WITH table_payroll_cte AS (
 	SELECT
