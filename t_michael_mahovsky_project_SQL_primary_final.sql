@@ -4,6 +4,7 @@ Obsahuje průměrné mzdy a ceny vybraných potravin v ČR za společné roky.
 */
 WITH table_payroll_cte AS (
 	SELECT
+		-- v datech je mzda po kvartálech, proto je nutné vypočítat průměr pro daný rok
 		round(AVG(cp.value)::NUMERIC,0) AS wage,
 		cp.industry_branch_code,
 		cpib.name AS industry_name,
