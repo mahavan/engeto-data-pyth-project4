@@ -1,5 +1,5 @@
 /*
- * Která kategorie potravin zdražuje nejpomaleji 
+ * Otázka 3: Která kategorie potravin zdražuje nejpomaleji 
  * (je u ní nejnižší percentuální meziroční nárůst)? 
  */
 WITH price_cte AS (
