@@ -15,7 +15,8 @@ WITH payroll_cte AS (
 payrolls_cte AS (
 	SELECT
 		-- mzda pro předcházející období, pro rok 2006
-		lag(wage) OVER (PARTITION BY payroll_cte.industry_branch_code ORDER BY year) AS wage_previous,
+		lag(wage) OVER (PARTITION BY payroll_cte.industry_branch_code ORDER BY year) 
+			AS wage_previous,
 		*
 	FROM payroll_cte 
 )
@@ -41,7 +42,8 @@ WITH payroll_cte AS (
 payrolls_cte AS (
 	SELECT
 		-- mzda pro předchozí rok
-		lag(wage) OVER (PARTITION BY payroll_cte.industry_branch_code ORDER BY year) AS wage_prev_year,
+		lag(wage) OVER (PARTITION BY payroll_cte.industry_branch_code ORDER BY year) 
+			AS wage_prev_year,
 		*
 	FROM payroll_cte 
 )
@@ -50,6 +52,12 @@ SELECT
 	wage - wage_prev_year AS wage_diff,
 	*
 FROM payrolls_cte;
--- závěr: U některých odvětví v některých letech došlo k poklesu průměrné hrubé mzdy (viz záporná hodnota ve sloupci wage_diff), celkově ale mezi lety 2006 až 2018 došlo k růstu mezd ve všech odvětvích.
+
+/*
+ * závěr: U některých odvětví v některých letech došlo k poklesu průměrné hrubé mzdy 
+ * (viz záporná hodnota ve sloupci wage_diff), celkově ale mezi lety 2006 až 2018 
+ * došlo k růstu mezd ve všech odvětvích.
+ */
+
 
 
