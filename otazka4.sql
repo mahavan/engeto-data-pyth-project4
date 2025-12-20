@@ -42,7 +42,7 @@ price_perc_year_cte AS (
 	-- rozdílu <= 10 % 
 	WHERE wage_price_diff_percent IS NOT NULL 
 		AND wage_price_diff_percent > 10
-	ORDER BY YEAR
+	ORDER BY year
 )
 SELECT  
 	-- výpis jednotlivých let
