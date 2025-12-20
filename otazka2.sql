@@ -19,7 +19,8 @@ SELECT
 	-- zaokrouhlení dolů na celé kusy
 	floor(wage / price) AS count,
 	*
-FROM count_cte 
--- závěr: V roce 2006 je možné si za průměrnou hrubou mzdu koupit 1 309 litrů mléka a 1 172 kg chleba.
--- V roce 2018 1 563 litrů mléka a 1 278 kg chleba.   
-	
+FROM count_cte;
+/*
+ * závěr: V roce 2006 je možné si za průměrnou hrubou mzdu koupit 1 309 litrů mléka a 1 172 kg chleba.
+ * V roce 2018 1 563 litrů mléka a 1 278 kg chleba.   
+ */
