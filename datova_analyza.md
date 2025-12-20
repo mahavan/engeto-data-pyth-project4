@@ -48,4 +48,6 @@ Odpověď: Meziroční nárůst cen potravin byl výrazně vyšší (přes 10 %)
 - soubor otazka5.sql
 
 Odpověď: Za výraznější změnu HDP považuji meziroční změnu > 5 %, ta dle analýzy nastala v letech 2007, 2015 a 2017. Dále bylo zjištěno, že růst HDP má pozitivní vliv na růst průměrné mzdy. Nejvíce se růst HDP projevuje v následujícím kalendářním roce. Ve sledovaném období (2007-2008 a 2015-2018) vždy došlo k většímu zvýšení průměrné mzdy oproti jiným rokům.
+![Graf průměrné hrubé mzdy a HDP v ČR](graf_mzdy_hdp.png)
+
 U cen potravin tato závislost neexistuje. Ve stejném sledovaném období došlo z 26 druhů potravin u 5 až 10 potravin k meziročnímu poklesu ceny. Není zde tedy přímý vztah mezi vyšším růstem HDP a cenou potravin. Pravděpodobně půjde o dílčí menší vliv. Větší vliv na ceny potravin bude mít inflace, poměr nabídky a poptávky, úroda apod.
