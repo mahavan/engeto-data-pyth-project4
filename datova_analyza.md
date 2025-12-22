@@ -5,7 +5,7 @@ dle SQL příkazů uvedených v následujících souborech:
 - t_michael_mahovsky_project_SQL_primary_final.sql
 - t_michael_mahovsky_project_SQL_secondary_final.sql
 
-První tabulka obsahuje data mezd (v Kč) a cen (v Kč) vybraných potravin pro roky 2006 až 2018. Průměrná hrubá mzda je uvedena jak pro jednotlivé obory, tak i pro celou republiku.
+První tabulka obsahuje data mezd (v Kč) a cen (v Kč) vybraných potravin pro roky 2006 až 2018. Průměrná hrubá mzda je uvedena jak pro jednotlivá odvětví, tak i pro celou republiku.
 Druhá tabulka obsahuje výpis evropských zemí a hodnoty HDP (v miliardách USD), počet obyvatel a GINI index pro jednotlivé roky stejného období (2006 až 2018).
 
 ## Výzkumné otázky
